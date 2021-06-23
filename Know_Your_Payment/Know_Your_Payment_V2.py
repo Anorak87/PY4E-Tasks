@@ -14,6 +14,6 @@ else :
     total = regular
 
 total = (round(100*total)/100)
-print('You shuld expect find $', total,' in your bank (or maybe in you pocket [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅])')
+print('You shuld expect find $', total,'in your bank (or maybe in you pocket [̲̅$̲̅(̲̅ ͡° ͜ʖ ͡°̲̅)̲̅$̲̅])')
 
 #I know that is prety simple to add verifications for what the user typed but this isn't the proposal of the exercise
