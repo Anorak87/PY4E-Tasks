@@ -1,21 +1,21 @@
 count = 0
 total = 0
-error = True
 
-number = input("Type a Number: ")
-
-while number != "done" :
-    try :
-        number = int(number)
-    except:
-        print("Not a Number: ")
-        error = False
-
-    if error :
-        count += 1
-        total += number
-
-    error = True
+while True :
     number = input("Type a Number: ")
 
-print(total, count, total/count)
+    if number == "done" :
+        break
+
+    try :
+        number = float(number)
+    except:
+        print("Not a Number: ")
+        continue
+
+    count += 1
+    total += number
+
+print("Total:", total, "\nSum:", count, "\nAvg:", total/count)
+
+#Today I do not had any good ideas for great commentaries ¯\_(ツ)_/¯
