@@ -1,8 +1,8 @@
 # %%
 #If you work and receive your payment per hour, this can be useful, at least for me to train :)
 #Edit: It is true that you received a raise?
-hour = float(input('How mutch hours did you worked? '))
-per_h = float(input('How mutch do you receive per hour? '))
+hour = float(input('How mutch hours did you worked?\n'))
+per_h = float(input('How mutch do you receive per hour?\n'))
 
 #Could be done diferent but I think it's easier to think like that
 regular = hour * per_h

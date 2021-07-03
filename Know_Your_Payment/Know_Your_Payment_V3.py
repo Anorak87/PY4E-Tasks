@@ -2,8 +2,8 @@
 #If you work and receive your payment per hour, this can be useful, at least for me to train :)
 #Edit: It is true that you received a raise?
 try:
-    hour = float(input('How mutch hours did you worked? '))
-    per_h = float(input('How mutch do you receive per hour? '))
+    hour = float(input('How mutch hours did you worked?\n'))
+    per_h = float(input('How mutch do you receive per hour?\n'))
 except:
     print("Hum, you do know it's tricky to predict what you will type, help me this time by using a number")
     quit()

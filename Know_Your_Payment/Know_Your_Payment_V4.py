@@ -16,8 +16,8 @@ def computepay(hour, rate) :
 
 
 try:
-    hour = float(input('How mutch hours did you worked? '))
-    per_h = float(input('How mutch do you receive per hour? '))
+    hour = float(input('How mutch hours did you worked?\n'))
+    per_h = float(input('How mutch do you receive per hour?\n'))
 except:
     print("Hum, you do know it's tricky to predict what you will type, help me this time by using a number")
     quit()
