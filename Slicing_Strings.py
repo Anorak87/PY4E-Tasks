@@ -8,4 +8,4 @@ print("Result:", sliced_string)
 print("Just to be sure that is a float (I will not die because I'm sure, right?)\nfl_from_str + 1 =", fl_from_str+1)
 
 print("(I know this isn't the best way to confirm types)\n", type(fl_from_str))
-#I will commit but will come back, I had some good ideas for cometaries today
+#I will commit but will come back, I had some good ideas for cometaries today 
