@@ -18,4 +18,4 @@ while True :
 
 print("Total:", total, "\nSum:", count, "\nAvg:", total/count)
 
-#Today I do not had any good ideas for great commentaries ¯\_(ツ)_/¯
+#Today I do not had any good ideas for great commentaries ¯\_(ツ)_/¯ 
