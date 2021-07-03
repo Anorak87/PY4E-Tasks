@@ -9,4 +9,4 @@ except:
 
 for line in fhandle:
     line = line.rstrip().upper()
-    print(line)
+    print(line) 
